@@ -11,11 +11,28 @@ body {
 header h1 {
     font-size: 50px;
 }
-header a {
+header a, section a {
     font-size: 16px;
     color: aquamarine;
 }
 header {
     text-align: center;
 }
-/*  */
+/* main */
+main {
+    text-align: center;
+}
+/* section */
+section p:nth-of-type(1), section p:nth-of-type(3) {
+    font-weight: 300;
+    font-size: 42px;
+}
+p:nth-of-type(2) {
+    font-size: 21px;
+    color: gray;
+}
+/* footer */
+footer {
+    text-align: right;
+    color: gray;
+}
